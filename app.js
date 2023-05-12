@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
   // Sending This is the home page! in the page
   res
     .status(200)
-    .send(`This is the home page and running on ${process.env.PORT}`);
+    .send(`This is the home page and running on 8000 port of our EC2 Instance !`);
 });
 
 // Listening to the port 
